@@ -44,12 +44,12 @@ from FunPayAPI.common.enums import MessageTypes
 logger = logging.getLogger("FPC.ChatGuard")
 
 # ══════════════════════════════ МЕТАДАННЫЕ ПЛАГИНА ══════════════════════════════
-NAME = "Неотвеченные чаты (ChatGuard)"
-VERSION = "1.0.0"
+NAME = "ChatGuard (Unanswered Chats)"
+VERSION = "1.0.1"
 DESCRIPTION = ("Тревожные уведомления, если покупатель ждёт ответа дольше N минут. "
                "Порог и повторные напоминания настраиваются, системные сообщения игнорируются. "
                "Команда: /chatguard")
-CREDITS = "Qwen (для FunPay Cardinal)"
+CREDITS = "yungspider"
 UUID = "d1ad3c05-9c4a-46c0-b2d7-f6b466f03342"
 SETTINGS_PAGE = True
 
